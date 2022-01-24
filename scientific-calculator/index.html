@@ -10,6 +10,124 @@
     <title>Scientific Calculator for web</title>
 </head>
 <body>
+    <div class="calc-body">
+        
+            <!-- operation screen
+            <input class="op-screen" type="text" placeholder="0"></input> -->
+
+
+            <!-- display screen -->
+            <input class="output-screen" type="text" placeholder="0"></input>
+
+            <!-- grid-container -->
+            <div class="grid-container">
+                <!-- DEG RAD -->
+                <button class="degree active">DEG</button>
+                <button class="radian">RAD</button>
+                <button class="grid-2">F-E</button>
+
+
+                <!-- MC row-->
+                <button class=" grey-text" id="mc">MC</button>
+                <button class=" grey-text" id="mr">MR</button>
+                <button id="m+">M+</button>
+                <button id="m-">M-</button>
+                <button id="ms">MS</button>
+
+
+                <!-- trigo and func -->
+                <!-- for trigo dropdown -->
+                <div class="dropdown" id="trigo">
+                    
+                    <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        &#8895; Trigonometry
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><button class="dropdown-item button1">sin</button></li>
+                        <li><button class="dropdown-item button1">cos</button></li>
+                        <li><button class="dropdown-item button1">tan</button></li>
+                        <li><button class="dropdown-item button1">cosec</button></li>
+                        <li><button class="dropdown-item button1">sec</button></li>
+                        <li><button class="dropdown-item button1">cot</button></li>
+                      </ul>
+
+                </div>
+
+                <!-- for function dropdown -->
+                <div class="dropdown" id="func">
+                   
+                    <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        ⨍  Functions
+                    </a>
+
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><button class="dropdown-item button1">abs</button></li>
+                      <li><button class="dropdown-item button1">round</button></li>
+                      <li><button class="dropdown-item button1">floor</button></li>
+                      <li><button class="dropdown-item button1">ceil</button></li>
+                      <li><button class="dropdown-item button1">trunc</button></li>
+                    </ul>
+
+                </div>
+
+                <!--  -->
+                <!-- Row 1 -->
+                    <button id="button-2nd">2<sup>nd</sup></button>
+                    <button >&#960;</button>
+                    <button >e</button>
+                    <button class="clear-btn" >C</button>
+                    <button class="clear-btn">&#x232b;</button>
+                    <!-- Row 2 -->
+                    <button class="bfr active">x<sup>2</sup></button>
+                    <button class="afr">x<sup>3</sup></button>
+                    <button >⅟x</button>
+
+                    <button >|x|</button>
+                    <button >exp</button>
+                    <button >mod</button>
+                    <!-- Row 3-->
+                    <button class="bfr active">&#x221A;x</button>
+                    <button  class="afr">&#x221B;x</button>
+                    <button >(</button>
+                    <button >)</button>
+                    <button >n!</button>
+                    <button >÷</button>
+                    <!-- Row 4 -->
+                    <button  class="bfr active">x<sup>y</sup></button>
+                    <button class="afr"><sup>y</sup>√x</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button >&#215;</button>
+                    <!-- Row 5 -->
+                    <button class="bfr active">10<sup>x</sup></button>
+                    <button  class="afr">2<sup>x</sup></button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button >-</button>
+                    <!-- Row 6 -->
+                    <button  class="bfr active">log</button>
+                    <button  class="afr">log<sub>y</sub>x</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button >+</button>
+                    <!-- Row 7 -->
+                    <button  class="bfr active">ln</button>
+                    <button class="afr">e<sup>x</sup></button>
+                    <button>+/-</button>
+                    <button class="grid-bold">0</button>
+                    <button>.</button>
+                    <button id="equal-to-sign">=</button> 
+
+
+
+            </div>
+        
+    </div>
     
 
 
