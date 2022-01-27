@@ -163,6 +163,19 @@ function eventList(e){
                    display.value = display.value.slice(0, -1);
                 }
                 break;
+            case "π":
+                if (display.value) {
+                s_display.value = `${display.value}×π`;
+                display.value = display.value * Math.PI;
+                }
+                break;
+
+            case "e":
+                if (display.value) {
+                s_display.value = `${display.value}×e`;
+                display.value = display.value * Math.E;
+                }
+                break;
             case 'sin':
                 if(btnDeg.classList.contains("active"))
                { s_display.value = `sin(${display.value})`;   
